@@ -98,19 +98,19 @@ function stopCount() {
         document.getElementById(`liItem${rank}`).innerHTML = html;
 
         if (change > 0) {
-            document.getElementById(`${code}Now`);//.style.color = "#0f9d58";
+            document.getElementById(`${code}Now`).style.color = "#0f9d58";
         } else if (change < 0) {
-            document.getElementById(`${code}Now`);//.style.color = "#db4437";
+            document.getElementById(`${code}Now`).style.color = "#db4437";
         } else {
-            document.getElementById(`${code}Now`);//.style.color = "#dddddd";
+            document.getElementById(`${code}Now`).style.color = "#dddddd";
         }
 
         if (changePC > 0) {
-            document.getElementById(`${code}NowPC`);
+            document.getElementById(`${code}NowPC`).style.color = "#0f9d58";
         } else if (changePC < 0) {
-            document.getElementById(`${code}NowPC`);
+            document.getElementById(`${code}NowPC`).style.color = "#db4437";
         } else {
-            document.getElementById(`${code}NowPC`);
+            document.getElementById(`${code}NowPC`).style.color = "#dddddd";
         }
     });
 };
