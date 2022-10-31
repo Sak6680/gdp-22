@@ -145,6 +145,8 @@ const intervalUpdate = function() {
         });
     }
 };
+setInterval(intervalSec, 1000);
+
 setInterval(intervalUpdate, 100);
 
 function click() {
