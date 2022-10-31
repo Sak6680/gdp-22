@@ -15,6 +15,7 @@ var clickSessionNew = 0;
 var timeSessionSec = 0;
 var timeSessionNewSec = 0;
 var lastView = 0;
+var toggleCount = 0;
 
 
 getData();
@@ -40,8 +41,9 @@ async function getData() {
             sortData();
 
             if (toggleCount == 1) {
-                // moveCount();
+                 moveCount();
             } else {
+                stopCount()
             }
         }
     } catch (error) {}
@@ -79,6 +81,39 @@ function moveCount() {
         }
     });
 }
+
+function stopCount() {
+    rank = 0;
+    Object.keys(jsonDataSorted).forEach(function (key) {
+        ++rank;
+        const code = jsonDataSorted[key]["code"];
+        const country = jsonDataSorted[key]["country"];
+        const now = Number(jsonDataSorted[key]["gdp22"]) * 1000000000;
+        const change = Number(jsonDataSorted[key]["gdp22-23"]);
+        const nowPC = Number(jsonDataSorted[key]["gdppc22"]);
+        const changePC = Number(jsonDataSorted[key]["gdppc22-23"]);
+
+        const html = `<span class="rank">${rank}</span><img src="https://sak6680.github.io/flag/${code}.png" width="32" height="24" alt="${country} flag" class="icon"><span class="country icon-text">${country}</span><span id="${code}Now" class="now stats-text">${now.toLocaleString()}</span><span id="${code}NowPC" class="now-pc stats-text">${decimal2(Number(nowPC.toFixed(2)).toLocaleString())}</span>`;
+
+        document.getElementById(`liItem${rank}`).innerHTML = html;
+
+        if (change > 0) {
+            document.getElementById(`${code}Now`);//.style.color = "#0f9d58";
+        } else if (change < 0) {
+            document.getElementById(`${code}Now`);//.style.color = "#db4437";
+        } else {
+            document.getElementById(`${code}Now`);//.style.color = "#dddddd";
+        }
+
+        if (changePC > 0) {
+            document.getElementById(`${code}NowPC`);
+        } else if (changePC < 0) {
+            document.getElementById(`${code}NowPC`);
+        } else {
+            document.getElementById(`${code}NowPC`);
+        }
+    });
+};
 
 
 
