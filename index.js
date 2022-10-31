@@ -34,7 +34,7 @@ function sortData() {
 
 async function getData() {
     try {
-        const res = await fetch("http://127.0.0.1:5500/gdp.json");
+        const res = await fetch("https://sak6680.github.io/gdpGdpPc/gdp.json");
         if (res.status === 200) {
             jsonData = await res.json();
             sortData();
