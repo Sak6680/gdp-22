@@ -177,17 +177,3 @@ document.getElementById("toggle").addEventListener("click", function () {
     localStorage.setItem("toggleCount", toggleCount);
 });
 
-// document.getElementById("toggleText").addEventListener("click", function () {
-//     if (document.getElementById("toggle").checked) {
-//         toggleCount = 0;
-//         document.getElementById("toggle").checked = false;
-//         document.getElementById("toggleText").innerText = "End Mar. 2022";
-//         stopCount();
-//     } else {
-//         toggleCount = 1;
-//         document.getElementById("toggle").checked = true;
-//         document.getElementById("toggleText").innerText = "Realtime";
-//         moveCount();
-//     }
-//     localStorage.setItem("toggleCount", toggleCount);
-// });
