@@ -67,7 +67,7 @@ function moveCount() {
         if (changePC > 0) {
             document.getElementById(`${code}NowPC`).style.color = "#15ff00";
         } else if (changePC < 0) {
-            document.getElementById(`${code}NowPC`).style.color = "rgb(255, 0, 0)";
+            document.getElementById(`${code}NowPC`).style.color = "#db4437";
         } else {
             document.getElementById(`${code}NowPC`).style.color = "#dddddd";
         }
