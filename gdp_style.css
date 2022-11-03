@@ -63,7 +63,7 @@ img.icon {
     font-size: 25px;
     line-height: 30px;
     float: left;
-    background: #ff000078;
+    background: #ff0000;
     animation-name: colorChanger;
     animation-duration: 20s;
     animation-iteration-count: infinite;
