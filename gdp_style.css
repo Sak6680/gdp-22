@@ -58,13 +58,11 @@ img.icon {
 
 .rank {
     text-align: center;
-    /* margin-left: 70px; */
     width: 50px;
     font-size: 25px;
     line-height: 30px;
     float: left;
-    /* position: absolute; */
-    background: #ff0000;
+    background: #ff000078;
     animation-name: colorChanger;
     animation-duration: 20s;
     animation-iteration-count: infinite;
