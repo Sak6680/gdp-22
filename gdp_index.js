@@ -57,7 +57,7 @@ function moveCount() {
         if (change > 0) {
             document.getElementById(`${code}Now`).style.color = "#15ff00";
         } else if (change < 0) {
-            document.getElementById(`${code}Now`).style.color = "rgb(255, 0, 0)";
+            document.getElementById(`${code}Now`).style.color = "#db4437";
         } else {
             document.getElementById(`${code}Now`).style.color = "#dddddd";
         }
