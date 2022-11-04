@@ -4,6 +4,8 @@
 }
 
 #Title_area {
+     display: block;
+    width: 1920px;
     width: 480px;
     height: 70px;
     /* background: #ff0000; */
@@ -19,6 +21,8 @@
     line-height: 70px;
 }
 #time_area {
+     display: block;
+    width: 1920px;
     height: 40px;
     width: 480px;
     text-align: center;
@@ -124,18 +128,26 @@ img.icon {
     overflow: hidden;
 }
 .colom_one{
+     display: block;
+    width: 1920px;
     width: 480px;
     float: left;
 }
 .colom_two{
+     display: block;
+    width: 1920px;
     width: 480px;
     float: left;
 }
 .colom_three{
+     display: block;
+    width: 1920px;
     width: 480px;
     float: left;
 }
 .colom_four{
+     display: block;
+    width: 1920px;
     width: 480px;
     float: left;
     animation-name: animationUp;
