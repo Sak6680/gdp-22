@@ -10,7 +10,7 @@
 }
 #Title_area img {
     height: auto;
-    width: 65px;
+    width: 60px;
     float: left;
     padding: 5px;
 }
@@ -100,7 +100,7 @@ img.icon {
     text-align: right;
     width: 245px;
     float: left;
-    font-size: 26px;
+    font-size: 25px;
     line-height: 30px;
     /* background: aliceblue; */
 }
