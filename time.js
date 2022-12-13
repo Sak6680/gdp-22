@@ -19,5 +19,5 @@ var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oc
             var month = months[d.getMonth()];
             var year = d.getFullYear();
             var x = document.getElementById("time");
-            x.innerHTML = day + " " + hr + ":" + min  + ":" +  sec + " " + ampm + " " + year  + " " + month + " " + date;
+            x.innerHTML = day + " " + hr + ":" + min  + ":" +  sec + " " + year  + " " + month + " " + date;
     }, 1000);
