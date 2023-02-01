@@ -1,0 +1,202 @@
+[
+        {
+            "now": 2815.453,
+            "gdp-22": 2815.453,
+            "gdp-22-23": 164.661,
+            "code": "Africa (Region)",
+            "country": "Africa (Region)",
+            "now-pc": 2127.38,
+            "gdp-pc-22": 2127.38,
+            "gdp-pc-22-23": 66.625
+        },
+        {
+            "now": 36464.21,
+            "gdp-22": 36464.21,
+            "gdp-22-23": 2447.535,
+            "code": "Asia and Pacific",
+            "country": "Asia and Pacific",
+            "now-pc": 8393.146,
+            "gdp-pc-22": 8393.146,
+            "gdp-pc-22-23": 499.361
+        },
+        {
+            "now": 1893.442,
+            "gdp-22": 1893.442,
+            "gdp-22-23": 74.045,
+            "code": "Australia and New Zealand",
+            "country": "Australia and New Zealand",
+            "now-pc": 61605.857,
+            "gdp-pc-22": 61605.857,
+            "gdp-pc-22-23": 1644.893
+        },
+        {
+            "now": 25943.26,
+            "gdp-22": 25943.26,
+            "gdp-22-23": 1560.73,
+            "code": "East Asia",
+            "country": "East Asia",
+            "now-pc": 15966.646,
+            "gdp-pc-22": 15966.646,
+            "gdp-pc-22-23": 973.984
+        },
+        {
+            "now": 4190.519,
+            "gdp-22": 4190.519,
+            "gdp-22-23": 134.34,
+            "code": "Eastern Europe",
+            "country": "Eastern Europe",
+            "now-pc": 15230.706,
+            "gdp-pc-22": 15230.706,
+            "gdp-pc-22-23": 512.826
+        },
+        {
+            "now": 22796.22,
+            "gdp-22": 22796.22,
+            "gdp-22-23": 711.792,
+            "code": "Europe",
+            "country": "Europe",
+            "now-pc": 32549.603,
+            "gdp-pc-22": 32549.603,
+            "gdp-pc-22-23": 979.666
+        },
+        {
+            "now": 870.503,
+            "gdp-22": 870.503,
+            "gdp-22-23": 15.739,
+            "code": "North Africa",
+            "country": "North Africa",
+            "now-pc": 4319.018,
+            "gdp-pc-22": 4319.018,
+            "gdp-pc-22-23": 8.333
+        },
+        {
+            "now": 27445.87,
+            "gdp-22": 27445.87,
+            "gdp-22-23": 1332.86,
+            "code": "North America",
+            "country": "North America",
+            "now-pc": 54652.955,
+            "gdp-pc-22": 54652.955,
+            "gdp-pc-22-23": 2339.932
+        },
+        {
+            "now": 37.646,
+            "gdp-22": 37.646,
+            "gdp-22-23": 2.698,
+            "code": "Pacific Islands",
+            "country": "Pacific Islands",
+            "now-pc": 3338.921,
+            "gdp-pc-22": 3338.921,
+            "gdp-pc-22-23": 162.258
+        },
+        {
+            "now": 3508.067,
+            "gdp-22": 3508.067,
+            "gdp-22-23": 264.517,
+            "code": "South America",
+            "country": "South America",
+            "now-pc": 8149.567,
+            "gdp-pc-22": 8149.567,
+            "gdp-pc-22-23": 546.979
+        },
+        {
+            "now": 4059.301,
+            "gdp-22": 4059.301,
+            "gdp-22-23": 367.882,
+            "code": "South Asia",
+            "country": "South Asia",
+            "now-pc": 2214.916,
+            "gdp-pc-22": 2214.916,
+            "gdp-pc-22-23": 170.536
+        },
+        {
+            "now": 3336.157,
+            "gdp-22": 3336.157,
+            "gdp-22-23": 286.22,
+            "code": "Southeast Asia",
+            "country": "Southeast Asia",
+            "now-pc": 5003.797,
+            "gdp-pc-22": 5003.797,
+            "gdp-pc-22-23": 373.852
+        },
+        {
+            "now": 1944.952,
+            "gdp-22": 1944.952,
+            "gdp-22-23": 148.921,
+            "code": "Sub-Saharan Africa (Region)",
+            "country": "Sub-Saharan Africa (Region)",
+            "now-pc": 1734.731,
+            "gdp-pc-22": 1734.731,
+            "gdp-pc-22-23": 80.506
+        },
+        {
+            "now": 18605.7,
+            "gdp-22": 18605.7,
+            "gdp-22-23": 577.452,
+            "code": "Western Europe",
+            "country": "Western Europe",
+            "now-pc": 43755.036,
+            "gdp-pc-22": 43755.036,
+            "gdp-pc-22-23": 1232.322
+        },
+        {
+            "now": 31456.06,
+            "gdp-22": 31456.06,
+            "gdp-22-23": 1632.464,
+            "code": "Western Hemisphere (Region)",
+            "country": "Western Hemisphere (Region)",
+            "now-pc": 31035.899,
+            "gdp-pc-22": 31035.899,
+            "gdp-pc-22-23": 1382.034
+        },
+        {
+            "now": 2815.328,
+            "gdp-22": 2815.328,
+            "gdp-22-23": 258.388,
+            "code": "ASEAN-5",
+            "country": "ASEAN-5",
+            "now-pc": 4830.528,
+            "gdp-pc-22": 4830.528,
+            "gdp-pc-22-23": 387.071
+        },
+        {
+            "now": 13723.48,
+            "gdp-22": 13723.48,
+            "gdp-22-23": 250.411,
+            "code": "Euro area",
+            "country": "Euro area",
+            "now-pc": 40051.797,
+            "gdp-pc-22": 40051.797,
+            "gdp-pc-22-23": 653.166
+        },
+        {
+            "now": 16217.65,
+            "gdp-22": 16217.65,
+            "gdp-22-23": 395.408,
+            "code": "European Union",
+            "country": "European Union",
+            "now-pc": 36446.78,
+            "gdp-pc-22": 36446.78,
+            "gdp-pc-22-23": 828.967
+        },
+        {
+            "now": 5382.849,
+            "gdp-22": 5382.849,
+            "gdp-22-23": 351.477,
+            "code": "Latin America and the Caribbean",
+            "country": "Latin America and the Caribbean",
+            "now-pc": 8408.692,
+            "gdp-pc-22": 8408.692,
+            "gdp-pc-22-23": 470.021
+        },
+        {
+            "now": 96939.88,
+            "gdp-22": 96939.88,
+            "gdp-22-23": 4621.023,
+            "code": "World2",
+            "country": "World",
+            "now-pc": 12868.488,
+            "gdp-pc-22": 12868.488,
+            "gdp-pc-22-23": 527.614
+        }
+    ]
